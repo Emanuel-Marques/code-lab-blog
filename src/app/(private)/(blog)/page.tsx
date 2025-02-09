@@ -1,8 +1,10 @@
+import PostCard from "@/components/ui/PostCard";
+
 export default function Blog() {
     return (
-      <div className="text-yellow-400">
-        <h1>Blog</h1>
-      </div>
+      <main className="bg-dark-10 p-7">
+        <PostCard />
+      </main>
     );
   }
   
