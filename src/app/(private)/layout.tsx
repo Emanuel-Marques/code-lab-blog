@@ -1,3 +1,4 @@
+import Header from "@/components/layout/Header";
 import type { Metadata } from "next";
 
 
@@ -16,7 +17,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        <h1>Private Route</h1>
+        <Header />
         {children}
       </body>
     </html>

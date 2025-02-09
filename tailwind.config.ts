@@ -21,6 +21,7 @@ export default {
       },
       fontFamily: {
         inter: "Inter",
+        space: ['Space Grotesk', 'sans-serif']
       },
     },
   },
