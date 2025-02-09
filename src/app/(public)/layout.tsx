@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import "./globals.css";
 
 
 export const metadata: Metadata = {
@@ -17,6 +16,7 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
+        <h1>Public Route</h1>
         {children}
       </body>
     </html>
