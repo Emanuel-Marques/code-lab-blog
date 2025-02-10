@@ -2,7 +2,7 @@
 [TYPESCRIPT__BADGE]: https://img.shields.io/badge/typescript-D4FAFF?style=for-the-badge&logo=typescript
 [REACT__BADGE]: https://img.shields.io/badge/React-005CFE?style=for-the-badge&logo=react
 [PROJECT__BADGE]: https://img.shields.io/badge/📱Visit_this_project-000?style=for-the-badge&logo=project
-[PROJECT__URL]: https://clinica-maravilha.vercel.app/
+[PROJECT__URL]: https://code-lab-blog-seven.vercel.app/sign-in
 [NEXTJS_BADGE]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [TAILWINDCSS]: https://img.shields.io/badge/Tailwind_CSS-grey?style=for-the-badge&logo=tailwind-css&logoColor=38B2AC
 
@@ -31,6 +31,7 @@ Este é um projeto desenvolvido como parte de um desafio da comunidade CodeLab, 
 
 <h2>⚠️ Observação</h2>
 O foco do projeto não é segurança. Sei que, em um sistema real, a autenticação não seria feita dessa forma. O armazenamento no localStorage e cookies é apenas para fins de teste e aprendizado.
+<br />
 
 [![project][PROJECT__BADGE]][PROJECT__URL]
 
