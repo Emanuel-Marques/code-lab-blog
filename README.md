@@ -31,7 +31,7 @@ Este é um projeto desenvolvido como parte de um desafio da comunidade CodeLab, 
 
 <h2>🎨 Design no Figma</h2>
 O design deste projeto pode ser visualizado no Figma através do link abaixo:
-🔗 [Design no Figma](https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab?node-id=257087-590&t=kGZroqXeqTq204oQ-0)
+🔗 [https://www.figma.com/design/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---CodeLab?node-id=257087-590&t=kGZroqXeqTq204oQ-0](Design no Figma)
 
 <h2>⚠️ Observação</h2>
 O foco do projeto não é segurança. Sei que, em um sistema real, a autenticação não seria feita dessa forma. O armazenamento no localStorage e cookies é apenas para fins de teste e aprendizado.
