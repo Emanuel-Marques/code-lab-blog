@@ -1,4 +1,3 @@
-import Header from "@/components/layout/Header";
 import type { Metadata } from "next";
 
 
@@ -17,7 +16,6 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        <Header />
         {children}
       </body>
     </html>
