@@ -5,10 +5,10 @@ export interface BlogPost {
     content: string
 }
 
-export interface ButtonProps {
+export type ButtonProps = {
     children: React.ReactNode; 
     classe?: string;
-}
+} & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export type InputProps = {
     label?: string;
