@@ -16,7 +16,6 @@ export default function RootLayout({
       <body
         className={`antialiased`}
       >
-        <h1>Public Route</h1>
         {children}
       </body>
     </html>
