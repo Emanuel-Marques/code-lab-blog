@@ -5,10 +5,21 @@ import LoginArt from "../../../../public/Login-Art.png";
 import Input from "@/components/ui/Input";
 import { useState } from "react";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 
 export default function SignIn() {
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
+    const router = useRouter();
+
+    function handleClickLogin(){
+      const user = {
+        email,
+        password
+      }
+      document.cookie = `user=${JSON.stringify(user)};`;
+      router.push("/");
+    }
 
     return (
       <div className="flex p-10 gap-5 bg-dark-10">
@@ -32,7 +43,10 @@ export default function SignIn() {
           <div className="flex justify-end">
             <span className="text-inter text-cyan-700 hover:cursor-pointer hover:underline">Esqueceu sua password?</span>
           </div>
-          <Button classe="bg-brand-color">
+          <Button 
+            classe="bg-brand-color"
+            onClick={handleClickLogin}
+          >
             Entrar
           </Button>
           <div className="flex justify-center items-center">
