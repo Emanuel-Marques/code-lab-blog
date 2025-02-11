@@ -23,10 +23,10 @@ export default function SignIn() {
     }
 
     return (
-      <div className="flex p-10 gap-5 bg-dark-10 max-sm:flex-col-reverse max-sm:p-3 ">
-        <div className="flex flex-col p-10 gap-5 max-sm:p-3">
-          <h3 className="font-space text-4xl">Bem-vindo de volta!👋</h3>
-          <span className="font-inter text-xl text-dark-50">
+      <div className="flex p-10 gap-5 bg-dark-10 max-sm:flex-col-reverse max-sm:p-3 max-md:flex-col-reverse max-md:p-3 ">
+        <div className="flex flex-col p-10 gap-5 max-sm:p-3 max-md:p-3">
+          <h3 className="font-space text-4xl max-sm:text-3xl">Bem-vindo de volta!👋</h3>
+          <span className="font-inter text-xl max-sm:text-lg text-dark-50">
             Hoje é um novo dia. Ele é seu. Você o molda. Faça login para começar a gerenciar seus posts.
           </span>
           <Input 
@@ -55,17 +55,17 @@ export default function SignIn() {
             <Link href="/register" className="text-inter text-cyan-700 hover:cursor-pointer hover:underline">Registrar</Link>
           </div>
         </div>
-        <div className="max-sm:hidden ">
+        <div className="max-sm:hidden max-md:hidden">
           <Image 
             src={LoginArt}
             alt="login-art"
           />
         </div>
-        <div className="hidden max-sm:flex max-sm:mt-5">
+        <div className="hidden max-sm:flex max-sm:mt-5 max-md:flex max-md:mt-5">
           <Image 
             src={LoginArtMobile}
-            width={380}
             alt="login-art-mobile"
+            className="max-md:w-full max-sm:w-full"
           />
         </div>
       </div>
