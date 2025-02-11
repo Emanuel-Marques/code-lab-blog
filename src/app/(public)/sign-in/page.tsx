@@ -2,6 +2,7 @@
 import Button from "@/components/ui/Button";
 import Image from "next/image";
 import LoginArt from "../../../../public/Login-Art.png";
+import LoginArtMobile from "../../../../public/login-art-mobile.png";
 import Input from "@/components/ui/Input";
 import { useState } from "react";
 import Link from "next/link";
@@ -22,8 +23,8 @@ export default function SignIn() {
     }
 
     return (
-      <div className="flex p-10 gap-5 bg-dark-10">
-        <div className="flex flex-col p-10 gap-5">
+      <div className="flex p-10 gap-5 bg-dark-10 max-sm:flex-col-reverse max-sm:p-3 ">
+        <div className="flex flex-col p-10 gap-5 max-sm:p-3">
           <h3 className="font-space text-4xl">Bem-vindo de volta!👋</h3>
           <span className="font-inter text-xl text-dark-50">
             Hoje é um novo dia. Ele é seu. Você o molda. Faça login para começar a gerenciar seus posts.
@@ -54,10 +55,17 @@ export default function SignIn() {
             <Link href="/register" className="text-inter text-cyan-700 hover:cursor-pointer hover:underline">Registrar</Link>
           </div>
         </div>
-        <div className="">
+        <div className="max-sm:hidden ">
           <Image 
             src={LoginArt}
             alt="login-art"
+          />
+        </div>
+        <div className="hidden max-sm:flex max-sm:mt-5">
+          <Image 
+            src={LoginArtMobile}
+            width={380}
+            alt="login-art-mobile"
           />
         </div>
       </div>
