@@ -15,3 +15,15 @@ export type InputProps = {
     className?: string;
     onChange: (value: string) => void;
 } & React.InputHTMLAttributes<HTMLInputElement>;
+
+export type IconProps = {
+    width: string;
+    height: string;
+}
+
+export type InfoModalProps = {
+    children: React.ReactNode;
+    closeModal: (value: boolean) => void;
+    buttonText: string; 
+    info: string;
+}
